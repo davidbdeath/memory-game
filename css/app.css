@@ -43,7 +43,6 @@ body {
   background: #142938;
 }
 
-/* MODULES */
 .btn-common, .btn-secondary, .btn-primary, .btn-menu, .btn-menu-big {
   flex: 1 1 40%;
   border: none;
