@@ -1,0 +1,35 @@
+.btn-common
+	flex: 1 1 40%
+	border: none
+	border-radius: 2em
+	color: $btnTextPrimary
+	padding-block: .5em
+	padding-inline: 1em
+	font: bold 16px $primaryAppFont
+
+
+.btn-menu-big
+	@extend .btn-common
+	background: $btnMenuBigIdle
+	&:hover
+		background: $btnMenuBigHover
+
+.btn-menu
+	@extend .btn-common
+	background: $btnMenuIdle
+	&:hover
+		background: $btnMenuHover
+	&:active
+		background: $btnMenuActive
+
+.btn-primary
+	@extend .btn-common
+	background: $btnPrimaryIdle
+	&:hover
+		background: $btnPrimaryHover
+
+.btn-secondary
+	@extend .btn-common
+	background: $btnSecondaryIdle
+	&:hover
+		background: $btnSecondaryHover
