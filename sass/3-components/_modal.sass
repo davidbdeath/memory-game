@@ -1,11 +1,17 @@
 .modal-container
 	display: flex
 	flex-direction: column
-	height: 100vw
+	justify-content: center
+	align-items: center
+	gap: 3em
+	margin: auto
+	height: 100vh
+
 
 .modal
 	display: flex
 	flex-direction: column
+	width: 80%
 	gap: 1.5rem
 	padding-inline: 1rem
 	padding-block: 1.5rem
@@ -21,3 +27,15 @@
 	font: bold 15px $primaryAppFont
 	color: $modalText
 	margin-bottom: 1rem
+
+.modal-bg-dark
+	background: $modalMaskDark
+
+.modal-bg-light
+	background: $modalMasklight
+
+.modal-h1
+	color: hsl(0, 0%, 99%)
+
+.modal-hidden
+	display: none
