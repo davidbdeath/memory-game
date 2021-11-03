@@ -1,77 +1,95 @@
 /* PLUGINS */
-@import url(normalize.css);
 /* BASE STYLES */
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   font-family: "Atkinson Hyperlegible", sans-serif;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 h1 {
   font: bold 48px "Atkinson Hyperlegible", sans-serif;
   color: white;
-  text-align: center; }
+  text-align: center;
+}
 
 h2 {
   font: bold 32px "Atkinson Hyperlegible", sans-serif;
-  color: #142938; }
+  color: #142938;
+}
 
 h3 {
   font: bold 20px "Atkinson Hyperlegible", sans-serif;
-  color: #142938; }
+  color: #142938;
+}
 
 p {
   font: bold 18px "Atkinson Hyperlegible", sans-serif;
-  color: #142938; }
+  color: #142938;
+}
 
 .game-tile-number-six {
   font: bold 44px "Atkinson Hyperlegible", sans-serif;
-  color: #142938; }
+  color: #142938;
+}
 
 .game-tile-number-four {
   font: bold 56px "Atkinson Hyperlegible", sans-serif;
-  color: #fcfcfc; }
+  color: #fcfcfc;
+}
 
 /* LAYOUTS */
 body {
-  background: #142938; }
+  background: #142938;
+}
 
 /* MODULES */
-.btn-common, .btn-menu-big, .btn-menu, .btn-primary, .btn-secondary {
+.btn-common, .btn-secondary, .btn-primary, .btn-menu, .btn-menu-big {
   flex: 1 1 40%;
   border: none;
   border-radius: 2em;
   color: #fcfcfc;
   padding-block: 0.5em;
   padding-inline: 1em;
-  font: bold 16px "Atkinson Hyperlegible", sans-serif; }
+  font: bold 16px "Atkinson Hyperlegible", sans-serif;
+}
 
 .btn-menu-big {
-  background: #fda517; }
-  .btn-menu-big:hover {
-    background: #ffbb4d; }
+  background: #fda517;
+}
+.btn-menu-big:hover {
+  background: #ffbb4d;
+}
 
 .btn-menu {
-  background: #bacdd8; }
-  .btn-menu:hover {
-    background: #6293b7; }
-  .btn-menu:active {
-    background: #30485a; }
+  background: #bacdd8;
+}
+.btn-menu:hover {
+  background: #6293b7;
+}
+.btn-menu:active {
+  background: #30485a;
+}
 
 .btn-primary {
-  background: #fda517; }
-  .btn-primary:hover {
-    background: #ffbb4d; }
+  background: #fda517;
+}
+.btn-primary:hover {
+  background: #ffbb4d;
+}
 
 .btn-secondary {
-  background: #bacdd8; }
-  .btn-secondary:hover {
-    background: #6293b7; }
+  background: #bacdd8;
+}
+.btn-secondary:hover {
+  background: #6293b7;
+}
 
 .modal-container {
   display: flex;
   flex-direction: column;
-  height: 100vw; }
+  height: 100vw;
+}
 
 .modal {
   display: flex;
@@ -80,15 +98,18 @@ body {
   padding-inline: 1rem;
   padding-block: 1.5rem;
   border-radius: 1rem;
-  background: #fcfcfc; }
+  background: #fcfcfc;
+}
 
 .modal-btn-grp {
   display: flex;
-  gap: 1rem; }
+  gap: 1rem;
+}
 
 .modal-h3 {
   font: bold 15px "Atkinson Hyperlegible", sans-serif;
   color: #7392a5;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
 
 /*# sourceMappingURL=app.css.map */
